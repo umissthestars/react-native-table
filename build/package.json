@@ -23,5 +23,11 @@
   "bugs": {
     "url": "https://github.com/umissthestars/react-native-table/issues"
   },
-  "homepage": "https://github.com/umissthestars/react-native-table#readme"
+  "homepage": "https://github.com/umissthestars/react-native-table#readme",
+  "devDependencies": {
+    "babel-preset-es2015": "^6.9.0",
+    "babel-preset-react": "^6.5.0",
+    "gulp": "^3.9.1",
+    "webpack": "^1.13.1"
+  }
 }
