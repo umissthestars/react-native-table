@@ -1,0 +1,27 @@
+{
+  "name": "react-native-table",
+  "version": "1.0.0",
+  "description": "react-native-table table ",
+  "main": "index.js",
+  "directories": {
+    "doc": "doc",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "gulp --type test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/umissthestars/react-native-table.git"
+  },
+  "keywords": [
+    "react",
+    "table"
+  ],
+  "author": "pu.g",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/umissthestars/react-native-table/issues"
+  },
+  "homepage": "https://github.com/umissthestars/react-native-table#readme"
+}
