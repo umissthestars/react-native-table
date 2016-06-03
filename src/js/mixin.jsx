@@ -1,5 +1,5 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
+import React from '../build/react';
+import ReactDOM from '../build/react-dom';
 
 class Mixin extends React.component{
 

@@ -2,12 +2,12 @@
 module.exports = {
     entry: {
         main: "../src/js/table.jsx",
-        util: "../src/js/util.jsx",
-        temp: "../src/js/temp.js",
-        mixin: "../src/js/mixin.jsx",
+        // util: "../src/js/util.jsx",
+        // temp: "../src/js/temp.js",
+        // mixin: "../src/js/mixin.jsx",
     },
     output: {
-        path: "../dist",
+        // path: "../dist/",
         filename: "table.js",
     },
     module: {

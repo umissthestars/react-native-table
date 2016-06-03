@@ -2,7 +2,7 @@ var fs = require('fs');
 var util = require('util');
 
 var gulp = require('gulp');
-var webpack = require('webpack'); 
+var webpack = require('gulp-webpack'); 
 var jsdoc = require('gulp-jsdoc3');
 
 var config = Object.create(require('./webpack.config.js'));
@@ -15,8 +15,9 @@ gulp.task('jsdoc', function (){
 });
 
 gulp.task('webpack', function (){
-
-	webpack(config);
+	return gulp.src('../src/js/table.jsx')
+		.pipe(webpack(config))
+		.pipe(gulp.dest('../dist/'));
 })
 
 

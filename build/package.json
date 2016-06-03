@@ -29,6 +29,12 @@
     "babel-preset-react": "^6.5.0",
     "gulp": "^3.9.1",
     "gulp-jsdoc3": "^0.3.0",
-    "webpack": "^1.13.1"
+    "gulp-webpack": "^1.5.0"
+  },
+  "dependencies": {
+    "babel-loader": "^6.2.4",
+    "jsx-loader": "^0.13.2",
+    "react": "^15.1.0",
+    "react-dom": "^15.1.0"
   }
 }
